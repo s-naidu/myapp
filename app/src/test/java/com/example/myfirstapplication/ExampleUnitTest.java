@@ -19,7 +19,7 @@ public class ExampleUnitTest {
         assertNotEquals(4, 4 + 2);
     }
     @Test
-    public void addition_isInCorrect() {
-        assertEquals(4, 4 + 2);
+    public void sub_isCorrect() {
+        assertEquals(2, 4 - 2);
     }
 }
