@@ -16,7 +16,7 @@ public class ExampleUnitTest {
     }
     @Test
     public void addition_isInCorrect() {
-        assertNotEquals(6, 4 + 2);
+        assertNotEquals(5, 4 + 2);
     }
     @Test
     public void sub_isCorrect() {
