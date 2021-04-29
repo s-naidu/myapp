@@ -1,8 +1,0 @@
-environment {
-  appName = 'jenkins-blog'
-
-  SIGNING_KEYSTORE = credentials('keyPassword')
-  KEY_ALIAS = credentials('keyAlias')
-  SIGNING_KEYSTORE = credentials('keyStore')
-  STORE_PASSWORD = credentials('storePassword')
-}
