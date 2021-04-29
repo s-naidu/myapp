@@ -7,8 +7,8 @@ RUN apt-get update \
     && apt-get install build-essential -y
 
 # Set Environment Variables
-ENV SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip" \
-    ANDROID_HOME="/usr/local/android-sdk" \
+ENV SDK_URL="https://dl.google.com/android/repository/commandlinetools-linux-6609375_latest.zip" \
+    ANDROID_HOME="/usr/lib/android-sdk" \
     ANDROID_VERSION=29
 
 # Download Android SDK
