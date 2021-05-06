@@ -26,5 +26,4 @@ public class ExampleUnitTest {
     public void sub_isNotCorrect() {
         assertNotEquals(6, 4 - 2);
     }
-}
 
